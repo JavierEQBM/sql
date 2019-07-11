@@ -38,7 +38,7 @@ class anotherConnection extends Command
      */
     public function handle()
     {
-        //dd('AnotherConnection =)', DB::connection('travel_log')->select("SELECT * FROM users"));
-        dd('AnotherConnection =)', DB::connection('sqlsrv')->select("SELECT * FROM art"));
+        dd('AnotherConnection =)', DB::connection('travel_log')->select("SELECT * FROM users"));
+        //dd('AnotherConnection =)', DB::connection('sqlsrv')->select("SELECT * FROM art"));
     }
 }
